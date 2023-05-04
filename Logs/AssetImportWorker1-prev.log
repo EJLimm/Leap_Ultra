@@ -1,0 +1,217 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ko' Physical Memory: 32581 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/lim/My project (4)
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58385
+Successfully changed project path to: C:/Users/lim/My project (4)
+C:/Users/lim/My project (4)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3532] Host "[IP] 166.104.234.97 [Port] 0 [Flags] 2 [Guid] 3363042963 [EditorId] 3363042963 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3BD92H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3532] Host "[IP] 166.104.234.97 [Port] 0 [Flags] 2 [Guid] 3363042963 [EditorId] 3363042963 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3BD92H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 53.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lim/My project (4)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004014 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 247 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 52.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.691 seconds
+Domain Reload Profiling:
+	ReloadAssembly (691ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (564ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (72ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (439ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (293ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (58ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004571 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lim\My project (4)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lim\My project (4)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.683 seconds
+Domain Reload Profiling:
+	ReloadAssembly (684ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (527ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (389.2 KB). Loaded Objects now: 3876.
+Memory consumption went from 125.9 MB to 125.5 MB.
+Total: 2.180200 ms (FindLiveObjects: 0.173900 ms CreateObjectMapping: 0.081100 ms MarkObjects: 1.765700 ms  DeleteObjects: 0.158300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 355574.987239 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Ultraleap.Tracking.Core.EditorTests.asmdef
+  artifactKey: Guid(4981bec6c09bf544fb599786b6e14ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Ultraleap.Tracking.Core.EditorTests.asmdef using Guid(4981bec6c09bf544fb599786b6e14ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4142c979f0f0bbade1bd6f6f10c7ed') in 0.032091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Splines/Examples/Transform Catmull-Rom Spline Test (Position).prefab
+  artifactKey: Guid(35d6d73573ae356469346dc430a03d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Splines/Examples/Transform Catmull-Rom Spline Test (Position).prefab using Guid(35d6d73573ae356469346dc430a03d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832f518ee091e632c572f475125f1c7d') in 0.075051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.788891 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Editor/Resources/TrackingVolumeVisualization/DeviceModelMat.mat
+  artifactKey: Guid(80f64184eecfae142b284a854d04b075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Editor/Resources/TrackingVolumeVisualization/DeviceModelMat.mat using Guid(80f64184eecfae142b284a854d04b075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a181020f46567ded27bcb07185e290df') in 0.046371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003163 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Prefabs/Service Provider (Desktop).prefab
+  artifactKey: Guid(b9c7aaf0d314cb847a3b2a20e893f1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Prefabs/Service Provider (Desktop).prefab using Guid(b9c7aaf0d314cb847a3b2a20e893f1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e0b5daa45855266a62598bbbe4466d') in 0.010602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Examples/Hands Examples/Hands (URP)/Render Pipeline Asset/UniversalRenderPipelineAsset_Hands.asset
+  artifactKey: Guid(9acc8fc2f1a084344a3a57fc861ff27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Examples/Hands Examples/Hands (URP)/Render Pipeline Asset/UniversalRenderPipelineAsset_Hands.asset using Guid(9acc8fc2f1a084344a3a57fc861ff27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6b3c3aafe3ba7a3130609f7e11229a') in 0.009470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Examples/Hands Examples/Hands (URP)/Render Pipeline Asset/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(f424ccdf819cf7c40831d29c895f4359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Examples/Hands Examples/Hands (URP)/Render Pipeline Asset/UniversalRenderPipelineAsset_Renderer.asset using Guid(f424ccdf819cf7c40831d29c895f4359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e30b517c9361ad4afec2ef41105886') in 0.007314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Prefabs/HandModels.prefab
+  artifactKey: Guid(a4f31c9f6421beb42a81b0031924ff15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Prefabs/HandModels.prefab using Guid(a4f31c9f6421beb42a81b0031924ff15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed15bf77a44b11b3e7ebacd59973e658') in 0.009024 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

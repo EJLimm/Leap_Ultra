@@ -1,0 +1,301 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ko' Physical Memory: 32581 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/lim/My project (4)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58385
+Successfully changed project path to: C:/Users/lim/My project (4)
+C:/Users/lim/My project (4)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7876] Host "[IP] 166.104.234.97 [Port] 0 [Flags] 2 [Guid] 684339021 [EditorId] 684339021 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3BD92H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7876] Host "[IP] 166.104.234.97 [Port] 0 [Flags] 2 [Guid] 684339021 [EditorId] 684339021 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3BD92H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 53.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lim/My project (4)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004385 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 248 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 52.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.698 seconds
+Domain Reload Profiling:
+	ReloadAssembly (698ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (567ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (72ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (441ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (295ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (58ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004118 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lim\My project (4)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lim\My project (4)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.684 seconds
+Domain Reload Profiling:
+	ReloadAssembly (685ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (528ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (389.2 KB). Loaded Objects now: 3876.
+Memory consumption went from 125.9 MB to 125.5 MB.
+Total: 2.128500 ms (FindLiveObjects: 0.166600 ms CreateObjectMapping: 0.071700 ms MarkObjects: 1.737900 ms  DeleteObjects: 0.151500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 355574.993878 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Splines/Examples/Transform Catmull-Rom Spline Test 2 (Pose).prefab
+  artifactKey: Guid(c7982af5f21dd2d4594b08d35838f649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/Splines/Examples/Transform Catmull-Rom Spline Test 2 (Pose).prefab using Guid(c7982af5f21dd2d4594b08d35838f649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd87889f4b4377359d670d873aeb740') in 0.090080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.001535 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Tests
+  artifactKey: Guid(efaa95f8e2d74fd4ab31216219236777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Tests using Guid(efaa95f8e2d74fd4ab31216219236777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb4484db5ec273dbf8ca74e5a45c9fb') in 0.007182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.815677 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor
+  artifactKey: Guid(2a8fd974554da2b48a6aab6b8932d584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor using Guid(2a8fd974554da2b48a6aab6b8932d584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6006ddaf6d90a76248410a5105a9c98') in 0.007078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.374568 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/LeapTestBase.cs
+  artifactKey: Guid(3875c87acb261004d81448a1f1ce9e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/LeapTestBase.cs using Guid(3875c87acb261004d81448a1f1ce9e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd0ad8e9f1026eb016716de6d67b736') in 0.011988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.238136 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/StationaryTestLeapProvider.cs
+  artifactKey: Guid(ccde143fd38f116479571104b9d8fd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/StationaryTestLeapProvider.cs using Guid(ccde143fd38f116479571104b9d8fd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dad285730bb2724a950243ee98bcf22') in 0.007055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.997341 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Scripts/UtilsTests.cs
+  artifactKey: Guid(54f9068a75cc6e547969c9cf585f95e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Scripts/UtilsTests.cs using Guid(54f9068a75cc6e547969c9cf585f95e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4cdb214b3ff0af899cf80826318da8') in 0.006369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.985435 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Scripts/DequeTests.cs
+  artifactKey: Guid(b430c5416aff9db41bcdfa7016f4ef61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Scripts/DequeTests.cs using Guid(b430c5416aff9db41bcdfa7016f4ef61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4014cac7b70257fcb83cc47756228f77') in 0.008290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.817512 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Scripts/DeviceTests.cs
+  artifactKey: Guid(f6b7a5adac738f94ba31e1ae52b56176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Scripts/DeviceTests.cs using Guid(f6b7a5adac738f94ba31e1ae52b56176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2bbb55554f04e32386b77bb88d5b23') in 0.005433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.521796 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Scripts/FromThenTests.cs
+  artifactKey: Guid(d8dae2a3179de4145ad49d629d64787d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Scripts/FromThenTests.cs using Guid(d8dae2a3179de4145ad49d629d64787d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f851ca7951aceb22caf234a6090cc2') in 0.007493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.124334 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Scripts/HandFactoryTest.cs
+  artifactKey: Guid(0fb0f9371f59c894f8597f3dcaefec54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Scripts/HandFactoryTest.cs using Guid(0fb0f9371f59c894f8597f3dcaefec54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e00d5a7d0126d4f485b31a98a1a8c4') in 0.007300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.698857 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Scripts/LeapCStressTests.cs
+  artifactKey: Guid(3d5138357f1da774ca228ea1750264a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Scripts/LeapCStressTests.cs using Guid(3d5138357f1da774ca228ea1750264a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f742c75cdb3df45d6d0ed2f3fe4307a6') in 0.006469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.699509 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Scripts/LeapCTests.cs
+  artifactKey: Guid(f83bca8c44c78a34f9775836a34fd247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Scripts/LeapCTests.cs using Guid(f83bca8c44c78a34f9775836a34fd247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0bc61fccdac4631cee9d76d2bef87b') in 0.006267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.329842 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/LeapTestProvider.cs
+  artifactKey: Guid(eb03ddd22a96bb141a8bd612a3b5afa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Scripts/LeapTestProvider.cs using Guid(eb03ddd22a96bb141a8bd612a3b5afa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc717c87485ce14684cf38ae489865d') in 0.007393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.809737 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Scripts/ListAndArrayExtensionTests.cs
+  artifactKey: Guid(0a1881a1455853c4b84ee2a3dbf2729b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Tests/Editor/Scripts/ListAndArrayExtensionTests.cs using Guid(0a1881a1455853c4b84ee2a3dbf2729b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2eb99a2a7b5d0fd2bbf116871e9d2d') in 0.007075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.020015 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Examples/Example Assets/Textures/Rounded Rectangle.png
+  artifactKey: Guid(02a286a64deb8f0429ebcd941315001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Examples/Example Assets/Textures/Rounded Rectangle.png using Guid(02a286a64deb8f0429ebcd941315001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517e23df7c6d2ad54269482f465f95e5') in 0.089842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.120278 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Prefabs/HandModelsNonHuman/DebugHand.prefab
+  artifactKey: Guid(e98e2c2cadb464c9892b9e4d60d61f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Prefabs/HandModelsNonHuman/DebugHand.prefab using Guid(e98e2c2cadb464c9892b9e4d60d61f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c60cf608d949804f48819a6cb4af5a2') in 0.009454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Hands/Editor/Resources/EditorDividerline.png
+  artifactKey: Guid(a0cc1993e2eb5234084d2270e34fc265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Hands/Editor/Resources/EditorDividerline.png using Guid(a0cc1993e2eb5234084d2270e34fc265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ab88b0069a537ce53d622cb2f14800') in 0.015733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003356 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Examples/Hands Examples/Hands (HDRP)/Render Pipeline Asset/New HDRenderPipelineAsset.asset
+  artifactKey: Guid(364a119ed8192214daba72d9246781ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Examples/Hands Examples/Hands (HDRP)/Render Pipeline Asset/New HDRenderPipelineAsset.asset using Guid(364a119ed8192214daba72d9246781ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101282324c7668f0a8e6be63e1149157') in 0.011075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010134 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Prefabs/Service Provider (XR).prefab
+  artifactKey: Guid(15d3b5cf5cea75344a4482323bc124a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Core/Runtime/Prefabs/Service Provider (XR).prefab using Guid(15d3b5cf5cea75344a4482323bc124a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a3aca2f1d57c9bd720fa4089097d21') in 0.012559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Examples/Core Examples/Example Assets/Projected Hand Models.prefab
+  artifactKey: Guid(4c7e05219b14fce4e925a1a7d7e6551a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Examples/Core Examples/Example Assets/Projected Hand Models.prefab using Guid(4c7e05219b14fce4e925a1a7d7e6551a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4283ec15275f637923d1787dadf8cd7') in 0.010972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ThirdParty/Ultraleap/Tracking/Examples/Core Examples/Example Assets/Inertia Hand Models.prefab
+  artifactKey: Guid(fff9f8f885bed8f4cadbd1f179efd843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Ultraleap/Tracking/Examples/Core Examples/Example Assets/Inertia Hand Models.prefab using Guid(fff9f8f885bed8f4cadbd1f179efd843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec23205e3022cf5c81c6f59ac11c32ef') in 0.007658 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
